@@ -7,4 +7,4 @@ before_install:
   - docker build -t mohamedElsonny/docker-react -f Dockerfile.dev .
 
 script:
-  - docker run mohamedElsonny/docker-react yarn test --coverage
+  - docker run mohamedElsonny/docker-react yarn test -- --coverage
